@@ -1,6 +1,8 @@
 # weather-app
 
-En la carpeta Documentation, se encuentra los detalles de la solución propuesta.
+En la carpeta Documentation, se encuentran los detalles de la solución propuesta.
+
+La aplicación de desplego en un servidor de heroku.
 
 La aplicación se encuentra corriendo en: https://weatherpredictionn.herokuapp.com
 
