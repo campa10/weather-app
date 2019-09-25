@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "152daaeb-f74f-4cda-914f-413f9a963dc7",
+		"name": "weather-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Prediction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://weatherpredictionn.herokuapp.com/prediction/234",
+					"protocol": "https",
+					"host": [
+						"weatherpredictionn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"prediction",
+						"234"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Prediction Max",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "client_id",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "client_secret",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://weatherpredictionn.herokuapp.com/predictionMax",
+					"protocol": "https",
+					"host": [
+						"weatherpredictionn",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"predictionMax"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
